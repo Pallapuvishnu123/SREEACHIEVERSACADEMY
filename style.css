@@ -1,0 +1,99 @@
+
+.box-positions {
+    height: 180px;
+    width: 200px;
+}
+
+.box-positions-img {
+    width: 100px;
+    height: 100px;
+}
+
+.box-img {
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+}
+
+.p4 {
+    width: 60%;
+}
+
+#cont2 {
+    position: relative;
+    top: -60px;
+    margin-top: 0px;
+}
+.navbar-up {
+    position: sticky;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(231, 93, 199);
+}
+.phone {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 18%;
+    height: 25px;
+    background: linear-gradient(to right, rgb(238, 189, 13), rgb(117, 139, 31));
+    text-align: center;
+    padding-top: 1px;
+}
+#logo{
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+@-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+.announcement-board{
+    height: 250px;
+    overflow-y: scroll;
+    background-color: #98bed8;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+.announcement-board h2 {
+    top:0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    position: sticky;
+    /* border: 1px solid black; */
+    background-color: rgb(87, 200, 225);
+}
+#home-content{
+    padding-top: 0%;
+    font-size:30PX;
+    margin-top: 80px;
+    color: #ca0fabe5;
+}
+#dream
+{
+    font-style: italic;
+}
+/* container 2 media queries */
+
+@media screen and (max-width:960px) {
+    #cont2 {
+        margin-top: 50px;
+        top: 0px;
+    }
+    .navbar-up{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+
+    }
+    .phone{
+        margin:0;
+        padding: 0%;
+        width: auto;
+    }
+}
